@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-var {validate} = require('jsonschema');
+const { validate } = require('jsonschema');
 const manifestV3Schema = require('../manifest/manifest.schema.v3.json');
 
 const invalidManifest = [
